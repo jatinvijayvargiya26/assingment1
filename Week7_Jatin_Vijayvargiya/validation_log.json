@@ -1,0 +1,188 @@
+{
+  "validation_log": [
+    {
+      "timestamp": "2026-07-05T23:07:53.119425",
+      "query": "What is Retrieval-Augmented Generation (RAG) and how does it work?",
+      "answer": "combines information retrieval with natural language generation to produce accurate, grounded responses.",
+      "latency_seconds": 3.697,
+      "retrieved_count": 5,
+      "top_score": 0.7654,
+      "avg_score": 0.5592,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #24)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #30)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #25)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #46)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #31)"
+      ],
+      "retrieved_previews": [
+        ". This captures polysemy — the phenomenon where a word has multiple meanings.  CHAPTER 5: RETRIEVAL-AUGMENTED GENERATION",
+        "the document chunks. The system then retrieves the top-k most similar chunks using cosine similarity or inner product se",
+        "rameters, RAG systems retrieve relevant information from external documents and use it to generate answers.  5.1 How RAG",
+        "— Machine Learning, Deep Learning, NLP, and RAG — represent one of the most rapidly advancing areas of science and engin",
+        "prompt is passed to a language model, which generates a grounded answer based on the provided context.  5.2 Advantages o"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T23:07:54.508121",
+      "query": "What are the advantages of RAG over purely generative models?",
+      "answer": "Factual grounding: Answers are based on retrieved information rather than model hallucinations.",
+      "latency_seconds": 1.287,
+      "retrieved_count": 5,
+      "top_score": 0.6124,
+      "avg_score": 0.5154,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #31)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #24)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #46)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #25)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #32)"
+      ],
+      "retrieved_previews": [
+        "prompt is passed to a language model, which generates a grounded answer based on the provided context.  5.2 Advantages o",
+        ". This captures polysemy — the phenomenon where a word has multiple meanings.  CHAPTER 5: RETRIEVAL-AUGMENTED GENERATION",
+        "— Machine Learning, Deep Learning, NLP, and RAG — represent one of the most rapidly advancing areas of science and engin",
+        "rameters, RAG systems retrieve relevant information from external documents and use it to generate answers.  5.1 How RAG",
+        "se can be updated without retraining the model. - Transparency: Sources of information can be cited, improving trustwort"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T23:07:56.567959",
+      "query": "Explain the difference between supervised and unsupervised learning.",
+      "answer": "Unsupervised Learning: In supervised learning, the model is trained on labeled data where the correct output is provided. The model learns to map input features to the corresponding output labels.",
+      "latency_seconds": 1.958,
+      "retrieved_count": 5,
+      "top_score": 0.6266,
+      "avg_score": 0.4222,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #5)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #4)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #3)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #6)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #0)"
+      ],
+      "retrieved_previews": [
+        "output labels. Common algorithms include linear regression, decision trees, support vector machines (SVM), and neural ne",
+        "defined rules, ML algorithms identify patterns in data and improve their performance over time.  2.1 Types of Machine Le",
+        "an-level intelligence across all domains. - Super AI: A hypothetical system that surpasses human intelligence in all res",
+        "group similar data points together, while dimensionality reduction techniques such as PCA compress data into fewer dimen",
+        "Artificial Intelligence and Machine Learning: A Comprehensive Overview  CHAPTER 1: INTRODUCTION TO ARTIFICIAL INTELLIGEN"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T23:07:59.180847",
+      "query": "What is FAISS and why is it used in RAG systems?",
+      "answer": "RETRIEVAL-AUGMENTED GENERATION (RAG) Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with natural language generation to produce accurate, grounded responses.",
+      "latency_seconds": 2.51,
+      "retrieved_count": 5,
+      "top_score": 0.3935,
+      "avg_score": 0.3388,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #25)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #24)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #31)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #32)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #30)"
+      ],
+      "retrieved_previews": [
+        "rameters, RAG systems retrieve relevant information from external documents and use it to generate answers.  5.1 How RAG",
+        ". This captures polysemy — the phenomenon where a word has multiple meanings.  CHAPTER 5: RETRIEVAL-AUGMENTED GENERATION",
+        "prompt is passed to a language model, which generates a grounded answer based on the provided context.  5.2 Advantages o",
+        "se can be updated without retraining the model. - Transparency: Sources of information can be cited, improving trustwort",
+        "the document chunks. The system then retrieves the top-k most similar chunks using cosine similarity or inner product se"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T23:08:00.049115",
+      "query": "What is the T5 model and how does it treat NLP tasks?",
+      "answer": "Text-to-Text Transfer Transformer",
+      "latency_seconds": 0.768,
+      "retrieved_count": 5,
+      "top_score": 0.699,
+      "avg_score": 0.5901,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #36)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #18)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #19)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #17)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #35)"
+      ],
+      "retrieved_previews": [
+        "ctive for tasks requiring understanding context, such as question answering and named entity recognition.  6.3 T5 Archit",
+        "anguage processing tasks including translation, summarization, and question answering.  CHAPTER 4: NATURAL LANGUAGE PROC",
+        "and generate human language. NLP combines computational linguistics, machine learning, and deep learning.  4.1 Core NLP ",
+        "sms to process sequences in parallel. They are the foundation of modern large language models (LLMs) such as GPT, BERT, ",
+        "n all previous tokens. GPT-3 has 175 billion parameters; GPT-4 is estimated to be significantly larger.  6.2 BERT Archit"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T23:08:10.553991",
+      "query": "What are the stages of the RAG pipeline?",
+      "answer": "Document Ingestion: Raw documents (PDFs, text files, or structured data) are loaded and preprocessed. Text is cleaned and normalized for downstream processing. 5.1 How RAG Works The RAG pipeline consists of several stages: Document Ingestion: Raw documents (PDFs, text files, or structured data) are loaded and preprocessed. Text is cleaned and normalized for downstream processing. 5.1 How RAG Works The RAG pipeline consists of several stages: Document Ingestion: Raw documents (PDFs, text files, or structured data) are loaded and preprocessed. Text is cleaned and normalized for downstream processing. 5.1 How RAG Works The RAG pipeline consists of several stages: Document Ingestion: Raw documents (PDFs, text files, or structured data) are loaded and preprocessed. Text is cleaned and normalized for downstream processing. 5.1 How RAG Works The RAG pipeline consists of several stages: Document Ingestion: Raw documents (PDFs, text files, or structured data) are loaded and preprocessed. Text is cleaned and normalized for downstream processing. 5.1 How RAG Works The RAG pipeline consists of several stages: Document",
+      "latency_seconds": 10.404,
+      "retrieved_count": 5,
+      "top_score": 0.5492,
+      "avg_score": 0.3674,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #25)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #31)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #24)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #30)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #32)"
+      ],
+      "retrieved_previews": [
+        "rameters, RAG systems retrieve relevant information from external documents and use it to generate answers.  5.1 How RAG",
+        "prompt is passed to a language model, which generates a grounded answer based on the provided context.  5.2 Advantages o",
+        ". This captures polysemy — the phenomenon where a word has multiple meanings.  CHAPTER 5: RETRIEVAL-AUGMENTED GENERATION",
+        "the document chunks. The system then retrieves the top-k most similar chunks using cosine similarity or inner product se",
+        "se can be updated without retraining the model. - Transparency: Sources of information can be cited, improving trustwort"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T23:08:12.132338",
+      "query": "What is the difference between BERT and GPT architectures?",
+      "answer": "BERT reads text bidirectionally and is particularly effective for tasks requiring understanding context, such as question answering and named entity recognition.",
+      "latency_seconds": 1.476,
+      "retrieved_count": 5,
+      "top_score": 0.7112,
+      "avg_score": 0.4852,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #35)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #34)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #17)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #45)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #33)"
+      ],
+      "retrieved_previews": [
+        "n all previous tokens. GPT-3 has 175 billion parameters; GPT-4 is estimated to be significantly larger.  6.2 BERT Archit",
+        "able capabilities including text generation, summarization, translation, code generation, and reasoning.  6.1 GPT Archit",
+        "sms to process sequences in parallel. They are the foundation of modern large language models (LLMs) such as GPT, BERT, ",
+        "d for summarization. BERTScore: Uses contextual embeddings to measure semantic similarity between generated and referenc",
+        "hatbots - Medical question answering - Legal document analysis - Educational tutoring systems - Knowledge management pla"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T23:08:12.815921",
+      "query": "What are common applications of RAG systems?",
+      "answer": "Enterprise search systems",
+      "latency_seconds": 0.582,
+      "retrieved_count": 5,
+      "top_score": 0.5224,
+      "avg_score": 0.4657,
+      "sources": [
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #32)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #25)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #31)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #24)",
+        "C:\\Users\\onikj\\Downloads\\week7\\sample_docs\\sample.txt (chunk #46)"
+      ],
+      "retrieved_previews": [
+        "se can be updated without retraining the model. - Transparency: Sources of information can be cited, improving trustwort",
+        "rameters, RAG systems retrieve relevant information from external documents and use it to generate answers.  5.1 How RAG",
+        "prompt is passed to a language model, which generates a grounded answer based on the provided context.  5.2 Advantages o",
+        ". This captures polysemy — the phenomenon where a word has multiple meanings.  CHAPTER 5: RETRIEVAL-AUGMENTED GENERATION",
+        "— Machine Learning, Deep Learning, NLP, and RAG — represent one of the most rapidly advancing areas of science and engin"
+      ]
+    }
+  ]
+}
